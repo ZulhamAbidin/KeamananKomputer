@@ -12,39 +12,71 @@
 
     <!-- NAVBAR --->
 
-    <nav class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white p-1 mb-6">
-      <div class="max-w-6xl mx-auto">
-        <div class="flex justify-between">
-          <div>
-            <a href="" class="flex items-center py-2 px-2">
-              <img src="source/logo.png" class="w-10 m-2" alt="" />
-              <span class="font-bold">Zulham Abidin</span>
-            </a>
-          </div>
+     <nav
+       class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 border-gray-200 px-2 sm:px-4 py-3 text-slate-50">
+       <div class="container flex flex-wrap justify-between items-center mx-auto">
 
-          <div class="hidden md:flex items-center space-x-1">
-            <a href="https://zulhamabidin.github.io/" class="py-5 px-3 font-inter">My Profile</a>
-            <a href="https://zulhamabidin.github.io/" class="py-5 px-3 font-inter">My Project</a>
-          </div>
+         <a href="" class="flex items-center md:ml-8">
+           <img src="source/icon/verified-white.png" class="w-8 h-8" alt="">
+           <span class="self-center text-xl ml-1 md:ml-2 font-semibold whitespace-nowrap">Zulham Abidin</span>
+         </a>
 
-          <div class="ring-tranparent outline-transparent border-0 focus:ring-tranparent focus:outline-transparent focus:transparent md:hidden flex items-center">
-            <button class="mobile-menu-button p-5">
-              <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd" />
-              </svg>
-            </button>
-          </div>
-        </div>
-      </div>
+         <div class="flex items-center md:order- 2">
 
-      <div class="mobile-menu hidden grid grid-cols-1">
-        <a href="https://zulhamabidin.github.io/" class="py-6 px-3 font-inter">Profile</a>
-        <hr />
-        <a href="https://zulhamabidin.github.io/" class="py-5 px-3 font-inter">Project</a>
-         <hr />
-        <a href="https://zulhamabidin.github.io/" class="py-5 px-3 font-inter">Contact Me</a>
-      </div>
-    </nav>
+           <button type="button"
+             class="group mobile-menu-hamburger inline-flex items-center p-2 ml-1 text-sm text-slate-50 rounded-lg md:hidden hover:bg-slate-50  focus:outline-none focus:ring-2 focus:ring-gray-200 "
+             aria-controls="mobile-menu-2" aria-expanded="false">
+             <svg class="w-8 h-8 group-hover:text-gray-600" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+               xmlns="http://www.w3.org/2000/svg">
+               <path fill-rule="evenodd"
+                 d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                 clip-rule="evenodd"></path>
+             </svg>
+           </button>
+
+         </div>
+
+
+         <div class="hidden hamburger-menu justify-between items-center w-full md:flex md:w-auto md:order-1">
+
+           <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+
+             <li>
+               <a href="https://zulhamabidin.github.io/" class="block py-2 pr-4 pl-3 text-slate-50 hover:text-slate-900 rounded-xl text-md pb- border-gray-100
+              hover:bg-gray-50">Home</a>
+             </li>
+
+             <li>
+             <a href=""
+               class="block py-2 pr-4 pl-3 text-slate-50 hover:text-slate-900 rounded-xl text-md border-gray-100 hover:bg-gray-50">About</a>
+             </li>
+
+             <li>
+               <a href=""
+                 class="block py-2 pr-4 pl-3 text-slate-50 hover:text-slate-900 rounded-xl text-md border-gray-100 hover:bg-gray-50">Image</a>
+             </li>
+
+             <li>
+               <a href="https://zulhamabidin.github.io/KeamananKomputer/"
+                 class="block py-2 pr-4 pl-3 text-slate-50 hover:text-slate-900 rounded-xl text-md border-gray-100 hover:bg-gray-50">BlogPost</a>
+             </li>
+
+             <li>
+               <a href="https://zulhamabidin.github.io/CurriculumVitae/"
+                 class="block py-2 pr-4 pl-3 text-slate-50 hover:text-slate-900 rounded-xl text-md border-gray-100 hover:bg-gray-50">CV</a>
+             </li>
+
+             <li>
+               <a href="https://zulhamabidin.github.io/Contact/"
+                 class="block py-2 pr-4 pl-3 text-slate-50 hover:text-slate-900 rounded-xl text-md border-gray-100 hover:bg-gray-50">Contact</a>
+             </li>
+
+           </ul>
+
+         </div>
+
+       </div>
+     </nav>
 
     <!-- SAMPUL -->
 
